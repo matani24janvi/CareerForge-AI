@@ -19,3 +19,9 @@
 2025-06-19 12:02:35,441 - event - INFO - Flask app initialized.
 2025-06-19 12:02:42,179 - event - INFO - Resume upload request received
 2025-06-19 12:02:42,185 - event - INFO - Resume uploaded successfully: readme.docx
+2025-06-19 18:55:47,172 - event - INFO - Flask app initialized.
+2025-06-19 18:55:47,935 - event - INFO - Flask app initialized.
+2025-06-19 18:55:50,401 - event - INFO - Flask app initialized.
+2025-06-19 18:55:51,164 - event - INFO - Flask app initialized.
+2025-06-19 18:56:03,300 - event - INFO - Resume upload request received
+2025-06-19 18:56:03,340 - event - INFO - Resume parsed successfully: readme.docx
