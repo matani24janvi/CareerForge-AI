@@ -19,9 +19,9 @@ def create_app():
     migrate.init_app(app, db)
 
     # Register Blueprints
-    from .routes.resume_anayser import resume_anayser_bp
+    from .routes.resume_analyser import resume_analyser_bp
 
-    app.register_blueprint(resume_anayser_bp)
+    app.register_blueprint(resume_analyser_bp)
 
     # Log application startup
     getLogger("event").info("Flask app initialized.")
