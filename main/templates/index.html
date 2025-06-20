@@ -1,17 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Resume Amplifier</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CareerForge AI</title>
+    <link rel="stylesheet" href="../static/styles/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.10.11/build/spline-viewer.js"
+    ></script>
   </head>
   <body>
-    <h1>Upload Your Resume</h1>
-    <form
-      action="{{url_for('resume_analyser.upload_resume')}}"
-      method="POST"
-      enctype="multipart/form-data"
-    >
-      <input type="file" name="file" />
-      <button type="submit">Upload</button>
-    </form>
+    <!-- Spline Background -->
+    <spline-viewer
+      id="spline-bg"
+      url="https://prod.spline.design/pNG6-PJNfPIzwGNV/scene.splinecode"
+    ></spline-viewer>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">About AI</a></li>
+        <li><a href="#">How It Works</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </nav>
+
+    <!-- Title Section -->
+    <div class="site-title">
+      <h1>
+        <span class="white-text">CareerForge</span>
+        <span class="ai-text">AI</span>
+      </h1>
+      <p class="subtitle">Unlock career opportunities with the power of AI</p>
+      <div class="title-underline"></div>
+
+      <!-- Quick Benefits -->
+      <div class="quick-benefits">
+        <div class="benefit-card">⚡ Instant AI Feedback</div>
+        <div class="benefit-card">🎯 Smart Job Matching</div>
+        <div class="benefit-card">🧠 ATS Optimization</div>
+      </div>
+    </div>
+
+    <!-- Upload Form -->
+    <div class="overlay">
+      <h2>Upload Your Resume</h2>
+      <form
+        action="{{url_for('resume_analyser.upload_resume')}}"
+        method="POST"
+        enctype="multipart/form-data"
+        class="upload-form"
+      >
+        <label class="file-input">
+          <input type="file" name="file" id="resumeInput" required />
+          <span id="fileLabel">Select Resume (PDF/DOCX)</span>
+        </label>
+        <button type="submit">Upload</button>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 CareerForge AI</p>
+      <div class="social-links">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Twitter</a>
+      </div>
+    </footer>
+
+    <script src="../static/scripts/index.js"></script>
   </body>
 </html>
