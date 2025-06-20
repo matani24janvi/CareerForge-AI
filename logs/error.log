@@ -1,0 +1,50 @@
+2025-06-20 12:26:35,689 - error - ERROR - Error during resume processing: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\Manav Sonawane\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Manav Sonawane\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1456, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\routes\resume_analyser.py", line 63, in upload_resume
+    extracted_text = extract_ocr(filepath)
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\routes\resume_analyser.py", line 24, in extract_ocr
+    images = convert_from_path(path)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-06-20 12:33:43,489 - error - ERROR - Error during resume processing: tesseract is not installed or it's not in your PATH. See README file for more information.
+Traceback (most recent call last):
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\pytesseract\pytesseract.py", line 275, in run_tesseract
+    proc = subprocess.Popen(cmd_args, **subprocess_args())
+  File "C:\Users\Manav Sonawane\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Manav Sonawane\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1456, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\routes\resume_analyser.py", line 63, in upload_resume
+    extracted_text = extract_ocr(filepath)
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\routes\resume_analyser.py", line 25, in extract_ocr
+    return ''.join([pytesseract.image_to_string(img) for img in images])
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\routes\resume_analyser.py", line 25, in <listcomp>
+    return ''.join([pytesseract.image_to_string(img) for img in images])
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\pytesseract\pytesseract.py", line 486, in image_to_string
+    return {
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\pytesseract\pytesseract.py", line 489, in <lambda>
+    Output.STRING: lambda: run_and_get_output(*args),
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\pytesseract\pytesseract.py", line 352, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\pytesseract\pytesseract.py", line 280, in run_tesseract
+    raise TesseractNotFoundError()
+pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
