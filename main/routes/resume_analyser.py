@@ -7,6 +7,8 @@ import fitz  # PyMuPDF
 from PIL import Image
 import pytesseract
 from pdf2image import convert_from_path
+import glob
+from main.preprocessing_logic import preprocessing_logic
 
 resume_analyser_bp = Blueprint('resume_analyser', __name__, url_prefix='/resume_analyser')
 
@@ -24,7 +26,7 @@ def extract_ocr(path):
     images = convert_from_path(path)
     return ''.join([pytesseract.image_to_string(img) for img in images])
 
-@resume_analyser_bp.route('/upload', methods=['POST'])
+@resume_analyser_bp.route('/', methods=['POST'])
 def upload_resume():
     try:
         event_logger.info("Resume upload request received")
@@ -52,7 +54,7 @@ def upload_resume():
 
         # 🧠 Extract Text Based on File Type
         extracted_text = ""
-        if ext == 'docx':
+        if ext == 'docx' or ext == 'doc':
             extracted_text = extract_docx(filepath)
         elif ext == 'pdf':
             extracted_text = extract_pdf(filepath)
@@ -63,11 +65,20 @@ def upload_resume():
             extracted_text = extract_ocr(filepath)
 
         parsed_data = {'filename': filename, 'extracted_text': extracted_text.strip()}
-        json_path = os.path.join(upload_folder, f"{os.path.splitext(filename)[0]}_data.json")
+        for ext in ('*.pdf', '*.docx', '*.doc', '*json'):
+            for old_file in glob.glob(os.path.join(upload_folder, ext)):
+                try:
+                    os.remove(old_file)
+                except Exception as e:
+                    error_logger.error(f"Error deleting old file {old_file}: {str(e)}")
+                    continue
+        json_path = os.path.join(upload_folder, "resume.json")
         with open(json_path, 'w', encoding='utf-8') as f:
             json.dump(parsed_data, f, ensure_ascii=False, indent=2)
 
         event_logger.info(f"Resume parsed successfully: {filename}")
+
+        preprocessing_logic(json_path)
 
         return jsonify({
             'success': True,

@@ -56,3 +56,25 @@
 2025-06-20 12:36:08,881 - event - INFO - Resume upload request received
 2025-06-20 12:36:08,916 - event - INFO - Falling back to OCR for scanned PDF
 2025-06-20 12:36:11,604 - event - INFO - Resume parsed successfully: scanned_resume.pdf
+2025-06-20 18:04:13,372 - event - INFO - Flask app initialized.
+2025-06-20 18:04:14,174 - event - INFO - Flask app initialized.
+2025-06-20 18:04:39,844 - event - INFO - Resume upload request received
+2025-06-20 18:04:39,904 - event - INFO - Resume parsed successfully: Resume.docx
+2025-06-20 21:33:30,697 - event - INFO - Flask app initialized.
+2025-06-20 21:33:32,906 - event - INFO - Flask app initialized.
+2025-06-20 21:33:53,095 - event - INFO - Resume upload request received
+2025-06-20 21:33:53,224 - event - INFO - Resume parsed successfully: Resume.docx
+2025-06-21 11:43:50,946 - event - INFO - Flask app initialized.
+2025-06-21 11:43:52,018 - event - INFO - Flask app initialized.
+2025-06-21 11:44:15,237 - event - INFO - Resume upload request received
+2025-06-21 11:44:15,309 - event - INFO - Resume parsed successfully: Resume.docx
+2025-06-21 11:54:21,578 - event - INFO - Flask app initialized.
+2025-06-21 11:54:44,201 - event - INFO - Flask app initialized.
+2025-06-21 11:54:48,677 - event - INFO - Flask app initialized.
+2025-06-21 12:02:06,442 - event - INFO - Flask app initialized.
+2025-06-21 17:13:45,138 - event - INFO - Flask app initialized.
+2025-06-21 17:13:46,105 - event - INFO - Flask app initialized.
+2025-06-22 21:31:10,514 - event - INFO - Flask app initialized.
+2025-06-22 21:31:11,628 - event - INFO - Flask app initialized.
+2025-06-22 21:31:40,305 - event - INFO - Resume upload request received
+2025-06-22 21:31:40,473 - event - INFO - Resume parsed successfully: Report.pdf
