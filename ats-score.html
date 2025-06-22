@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerForge AI | ATS Score</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.11/build/spline-viewer.js"></script>
+</head>
+<body>
+  <!-- Background -->
+  <spline-viewer id="spline-bg" url="https://prod.spline.design/pNG6-PJNfPIzwGNV/scene.splinecode"></spline-viewer>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">About AI</a></li>
+      <li><a href="#">How It Works</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+  </nav>
+
+  <!-- Title -->
+  <div class="site-title">
+    <h1><span class="white-text">CareerForge</span> <span class="ai-text">AI</span></h1>
+    <p class="subtitle">Unlock career opportunities with the power of AI</p>
+    <div class="title-underline"></div>
+  </div>
+
+  <!-- ATS Score Card -->
+  <div class="ats-score-card center" id="atsBox">
+    <h1>🎯 ATS Resume Match Score</h1>
+    <div class="score-ring">
+      <svg>
+        <circle class="bg" cx="80" cy="80" r="70"></circle>
+        <circle class="progress" cx="80" cy="80" r="70"></circle>
+      </svg>
+      <div class="score-text" id="scoreValue">0%</div>
+    </div>
+    <p class="score-desc">Analyzed your resume vs. job description for keyword alignment.</p>
+    <button class="next-btn" onclick="showSuggestions()">View Suggestions ➜</button>
+  </div>
+
+  <!-- Suggestions Panel -->
+  <div class="suggestion-panel" id="suggestionPanel">
+    <div class="suggestion-card" id="missingSkillsBtn">➡️ Missing Skills</div>
+    <div class="suggestion-card" id="recommendedCoursesBtn">➡️ Recommended Courses</div>
+    <button class="back-btn" onclick="goBack()">⬅ Back</button>
+  </div>
+
+  <!-- ✅ Popup Modal -->
+  <div id="popupModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <div id="modalText"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 CareerForge AI</p>
+    <div class="social-links">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
