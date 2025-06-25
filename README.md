@@ -17,9 +17,8 @@ CareerForge AI is a beginner-friendly, minimalist web application that helps can
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** HTML, CSS (Bootstrap)
+- **Frontend:** HTML, CSS (Bootstrap), SPLINE, JavaScript
 - **Backend:** Python Flask
-- **Database:** MySQL (via XAMPP)
 - **OCR:** Tesseract OCR
 - **Tools:** Postman, VS Code, GitHub
 
