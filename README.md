@@ -12,7 +12,7 @@ CareerForge AI is a beginner-friendly, minimalist web application that helps can
 - 💼 Job role recommendations based on extracted resume skills.
 - ✍️ Basic AI-generated resume improvement suggestions.
 - 🎤 Role-specific interview question generator.
-- 🔗 Lightweight web app with Flask backend and MySQL (via XAMPP) integration.
+- 🔗 Lightweight web app with Flask backend
 
 ---
 
