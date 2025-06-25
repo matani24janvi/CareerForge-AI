@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #0f0f0f;
+  color: #eee;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+spline-viewer#spline-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+}
+
+.glass-box {
+  width: 90%;
+  max-width: 850px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 0 30px rgba(0, 255, 204, 0.08);
+  backdrop-filter: blur(12px);
+}
+
+.progress-container {
+  width: 100%;
+  height: 12px;
+  background-color: #2a2a2a;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(to right, #00ffc3, #00bfff);
+  width: 0%;
+  transition: width 0.6s ease;
+  border-radius: 6px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.step {
+  flex: 1;
+  text-align: center;
+  opacity: 0.2;
+  transition: opacity 0.5s ease;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+.icon {
+  font-size: 28px;
+  color: #aaa;
+  margin-bottom: 12px;
+  transition: color 0.3s ease;
+}
+
+.step.active .icon {
+  color: #00ffcc;
+}
+
+.step div:last-child {
+  font-size: 15px;
+  font-weight: 500;
+}

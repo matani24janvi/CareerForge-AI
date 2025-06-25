@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify, request, render_template, current_app
+from flask import Blueprint, jsonify, redirect, request, render_template, current_app, url_for
 import os, json
 from werkzeug.utils import secure_filename
 from main.logger import event_logger, error_logger
@@ -11,8 +11,6 @@ import glob
 from main.preprocessing_logic import preprocessing_logic
 
 resume_analyser_bp = Blueprint('resume_analyser', __name__, url_prefix='/resume_analyser')
-
-# 🔍 Extraction Helpers
 
 def extract_docx(path):
     doc = Document(path)
@@ -80,12 +78,7 @@ def upload_resume():
 
         preprocessing_logic(json_path)
 
-        return jsonify({
-            'success': True,
-            'message': 'Resume uploaded and parsed',
-            'filename': filename,
-            'text_preview': extracted_text[:500] + ('...' if len(extracted_text) > 500 else '')
-        }), 200
+        return redirect(url_for('loader.show_process_loader'))
 
     except Exception as e:
         error_logger.error(f"Error during resume processing: {str(e)}", exc_info=True)

@@ -1,7 +1,9 @@
 # keyword_matching.py
 
 import json
-from Variables import (
+
+from flask import jsonify
+from main.variables import (
     ds_keyword, ds_course,
     web_keyword, web_course,
     android_keyword, android_course,
@@ -50,19 +52,19 @@ def get_course_recommendations(tokens):
                 "courses": course_data
             })
 
-    # Sort by fit descending
     return sorted(recommendations, key=lambda x: x['fit'], reverse=True)
 
-# 🧪 Example test
 if __name__ == "__main__":
     
     with open("./uploads/resume.json", 'r', encoding='utf-8') as file:
         data = json.load(file)
         text = data.get('extracted_text', '')
         tokens = data.get('tokens', [])
-    for role_data in get_course_recommendations(tokens):
-        print(f"\n🎯 Role: {role_data['role']} (Fit: {role_data['fit']}%)")
-        print("🔻 Missing Keywords:", ', '.join(role_data['missing_skills']))
-        print("📚 Suggested Courses:")
-        for c in role_data['courses']:
-            print(f" - {c['title']}: {c['url']}")
+    
+    
+    # for role_data in get_course_recommendations(tokens):
+    #     print(f"\n🎯 Role: {role_data['role']} (Fit: {role_data['fit']}%)")
+    #     print("🔻 Missing Keywords:", ', '.join(role_data['missing_skills']))
+    #     print("📚 Suggested Courses:")
+    #     for c in role_data['courses']:
+    #         print(f" - {c['title']}: {c['url']}")

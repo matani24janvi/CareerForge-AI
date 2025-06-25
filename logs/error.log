@@ -48,3 +48,67 @@ Traceback (most recent call last):
   File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\pytesseract\pytesseract.py", line 280, in run_tesseract
     raise TesseractNotFoundError()
 pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-06-23 12:58:41,070 - error - ERROR - Error during resume processing: Could not build url for endpoint 'load1'. Did you mean 'resume_analyser.upload_resume' instead?
+Traceback (most recent call last):
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\routes\resume_analyser.py", line 81, in upload_resume
+    return redirect(url_for('load1'))
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\flask\helpers.py", line 232, in url_for
+    return current_app.url_for(
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'load1'. Did you mean 'resume_analyser.upload_resume' instead?
+2025-06-23 13:03:10,000 - error - ERROR - Error during resume processing: ../templates/load1.html
+Traceback (most recent call last):
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\routes\resume_analyser.py", line 81, in upload_resume
+    return render_template('../templates/load1.html')
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../templates/load1.html
+2025-06-23 13:05:30,034 - error - ERROR - Error during resume processing: main/templates/load1.html
+Traceback (most recent call last):
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\routes\resume_analyser.py", line 81, in upload_resume
+    return render_template('main/templates/load1.html')
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: main/templates/load1.html
+2025-06-25 14:59:00,588 - error - ERROR - Error during resume processing: Could not build url for endpoint 'loader.show_loader'. Did you mean 'load1.show_loader' instead?
+Traceback (most recent call last):
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\routes\resume_analyser.py", line 81, in upload_resume
+    return redirect(url_for('loader.show_loader'))
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\flask\helpers.py", line 232, in url_for
+    return current_app.url_for(
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'loader.show_loader'. Did you mean 'load1.show_loader' instead?

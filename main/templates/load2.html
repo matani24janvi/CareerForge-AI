@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Processing Resume – CareerForge AI</title>
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.10.11/build/spline-viewer.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/styles/loadStyle2.css" />
+  </head>
+  <body>
+    <spline-viewer
+      id="spline-bg"
+      url="https://prod.spline.design/pNG6-PJNfPIzwGNV/scene.splinecode"
+    >
+    </spline-viewer>
+
+    <div class="glass-box">
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <div class="steps">
+        <div class="step active" id="step1">
+          <div class="icon"><i class="fa-solid fa-user"></i></div>
+          <div>Analyzing Structure</div>
+        </div>
+        <div class="step" id="step2">
+          <div class="icon"><i class="fa-solid fa-folder-open"></i></div>
+          <div>Improvising Resume</div>
+        </div>
+        <div class="step" id="step3">
+          <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <div>Resume Enhanced!</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../static/scripts/loadScript2.js"></script>
+  </body>
+</html>

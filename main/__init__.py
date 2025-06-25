@@ -20,8 +20,15 @@ def create_app():
 
     # Register Blueprints
     from .routes.resume_analyser import resume_analyser_bp
+    from .routes.loader import loader_bp
+    from .routes.suggestions import suggestions_bp
+    from .routes.enhancer import enhancer_bp
 
     app.register_blueprint(resume_analyser_bp)
+    app.register_blueprint(loader_bp)
+    app.register_blueprint(suggestions_bp)
+    app.register_blueprint(enhancer_bp)
+
 
     # Log application startup
     getLogger("event").info("Flask app initialized.")

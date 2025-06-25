@@ -53,7 +53,7 @@ uiux_course = [['Google UX Design Professional Certificate','https://www.courser
                ['Adobe XD for Beginners [Free]','https://youtu.be/WEljsc2jorI'],
                ['Adobe XD in Simple Way','https://learnux.io/course/adobe-xd']]
 
-ds_keyword = ['tensorflow','keras','pytorch','machine learning','deep Learning','flask','streamlit']
+ds_keyword = ['tensorflow','keras','pytorch','machine', 'learning','deep','Learning','flask','streamlit']
 
 web_keyword = ['react', 'django', 'node', 'react', 'php', 'laravel', 'magento', 'wordpress',
                                'javascript', 'angular', 'c#', 'flask']
