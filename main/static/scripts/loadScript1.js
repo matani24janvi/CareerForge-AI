@@ -21,5 +21,5 @@ steps
   .then(() => {
     setTimeout(() => {
       window.location.href = "/suggestions"; // Change this if needed
-    }, 3000);
+    }, 1000);
   });

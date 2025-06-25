@@ -34,13 +34,21 @@ function showSuggestions() {
 // ✅ Popup Logic Starts Here
 
 // Show modal content on card click
-document.getElementById("missingSkillsBtn").addEventListener("click", function () {
-  showModal("<h2>Missing Skills</h2><p>These are the skills you're missing based on the job description.</p>");
-});
+document
+  .getElementById("missingSkillsBtn")
+  .addEventListener("click", function () {
+    showModal(
+      "<h2>Missing Skills</h2><p>These are the skills you're missing based on the job description.</p>"
+    );
+  });
 
-document.getElementById("recommendedCoursesBtn").addEventListener("click", function () {
-  showModal("<h2>Recommended Courses</h2><p>Here are some courses that might help you improve.</p>");
-});
+document
+  .getElementById("recommendedCoursesBtn")
+  .addEventListener("click", function () {
+    showModal(
+      "<h2>Recommended Courses</h2><p>Here are some courses that might help you improve.</p>"
+    );
+  });
 
 document.getElementById("closeModal").addEventListener("click", function () {
   document.getElementById("popupModal").style.display = "none";

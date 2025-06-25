@@ -21,5 +21,5 @@ steps
   .then(() => {
     setTimeout(() => {
       window.location.href = "result.html"; // Change this if needed
-    }, 10000);
+    }, 1000);
   });

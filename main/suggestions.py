@@ -55,16 +55,14 @@ def get_course_recommendations(tokens):
     return sorted(recommendations, key=lambda x: x['fit'], reverse=True)
 
 if __name__ == "__main__":
-    
     with open("./uploads/resume.json", 'r', encoding='utf-8') as file:
         data = json.load(file)
-        text = data.get('extracted_text', '')
         tokens = data.get('tokens', [])
-    
-    
-    # for role_data in get_course_recommendations(tokens):
-    #     print(f"\n🎯 Role: {role_data['role']} (Fit: {role_data['fit']}%)")
-    #     print("🔻 Missing Keywords:", ', '.join(role_data['missing_skills']))
-    #     print("📚 Suggested Courses:")
-    #     for c in role_data['courses']:
-    #         print(f" - {c['title']}: {c['url']}")
+
+    recommendations = get_course_recommendations(tokens)
+
+    # Add to the same dictionary or save separately
+    data['course_recommendations'] = recommendations
+
+    with open("./uploads/resume.json", 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
