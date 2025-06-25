@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background: #0f0f0f;
   color: white;
   overflow: hidden;
@@ -55,8 +55,13 @@ spline-viewer#spline-bg {
   font-weight: bold;
 }
 
-.white-text { color: white; }
-.ai-text { color: red; margin-left: 12px; }
+.white-text {
+  color: white;
+}
+.ai-text {
+  color: red;
+  margin-left: 12px;
+}
 
 .subtitle {
   font-size: 1rem;
@@ -195,7 +200,6 @@ spline-viewer#spline-bg {
   transform: translateX(10px);
 }
 
-
 /* Footer */
 footer {
   position: absolute;
@@ -222,8 +226,14 @@ footer {
 
 /* Animations */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Popup Modal */
@@ -290,3 +300,97 @@ footer {
   transform: translateX(10px);
 }
 
+/* Modal Background */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.75); /* dimmed background */
+  backdrop-filter: blur(4px);
+}
+
+/* Modal Box */
+.modal-content {
+  background-color: #0d1117;
+  color: #ffffff;
+  margin: 5% auto;
+  padding: 20px 30px;
+  border: 1px solid #2c2f36;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 700px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Modal Heading */
+.modal-content h2 {
+  color: #00ffff;
+  margin-bottom: 16px;
+}
+
+/* Close Button */
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff5757;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #ffffff;
+}
+
+/* Role Cards Inside Modal */
+.role-card {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  padding: 15px 20px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.1);
+}
+
+.role-card h3 {
+  margin-top: 0;
+  color: #58a6ff;
+}
+
+.role-card ul {
+  padding-left: 20px;
+}
+
+.role-card li {
+  margin: 4px 0;
+  line-height: 1.5;
+}
+
+.role-card a {
+  color: #7ee787;
+  text-decoration: none;
+}
+
+.role-card a:hover {
+  text-decoration: underline;
+}
+
+.modal-content {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

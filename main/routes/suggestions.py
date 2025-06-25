@@ -11,8 +11,6 @@ def show_suggestions():
         data = json.load(file)
         tokens = data.get('tokens', [])
 
-    get_course_recommendations(tokens)
-
-    resume_data = json.load(open("./uploads/resume.json", 'r', encoding='utf-8'))
+    recommendations = get_course_recommendations(tokens)
     
-    return render_template('suggestions.html', data = resume_data)
+    return render_template('suggestions.html', recommendations = recommendations)

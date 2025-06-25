@@ -85,6 +85,10 @@
     </footer>
 
     <!-- Script -->
+    <script>
+      const recommendationsData = {{ recommendations | tojson | safe }};
+    </script>
+
     <script src="../static/scripts/suggestions.js"></script>
   </body>
 </html>

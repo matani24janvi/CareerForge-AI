@@ -54,15 +54,15 @@ def get_course_recommendations(tokens):
 
     return sorted(recommendations, key=lambda x: x['fit'], reverse=True)
 
-if __name__ == "__main__":
-    with open("./uploads/resume.json", 'r', encoding='utf-8') as file:
-        data = json.load(file)
-        tokens = data.get('tokens', [])
+# if __name__ == "__main__":
+#     with open("./uploads/resume.json", 'r', encoding='utf-8') as file:
+#         data = json.load(file)
+#         tokens = data.get('tokens', [])
 
-    recommendations = get_course_recommendations(tokens)
+#     recommendations = get_course_recommendations(tokens)
 
-    # Add to the same dictionary or save separately
-    data['course_recommendations'] = recommendations
+#     # Add to the same dictionary or save separately
+#     data['course_recommendations'] = recommendations
 
-    with open("./uploads/resume.json", 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+#     with open("./uploads/resume.json", 'w', encoding='utf-8') as f:
+#         json.dump(data, f, ensure_ascii=False, indent=2)

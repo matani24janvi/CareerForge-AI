@@ -20,6 +20,6 @@ steps
   }, Promise.resolve())
   .then(() => {
     setTimeout(() => {
-      window.location.href = "result.html"; // Change this if needed
+      window.location.href = "/enhancer"; // Change this if needed
     }, 1000);
   });
