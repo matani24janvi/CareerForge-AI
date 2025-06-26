@@ -202,3 +202,21 @@
 2025-06-25 21:58:42,832 - event - INFO - Flask app initialized.
 2025-06-25 21:58:56,583 - event - INFO - Resume upload request received
 2025-06-25 21:58:56,689 - event - INFO - Resume parsed successfully: Resume.docx
+2025-06-26 08:12:48,518 - event - INFO - Flask app initialized.
+2025-06-26 08:12:50,626 - event - INFO - Flask app initialized.
+2025-06-26 08:13:14,712 - event - INFO - Flask app initialized.
+2025-06-26 08:13:38,320 - event - INFO - Resume upload request received
+2025-06-26 08:13:38,377 - event - INFO - Resume parsed successfully: Resume.docx
+2025-06-26 08:26:52,924 - event - INFO - Flask app initialized.
+2025-06-26 08:26:59,937 - event - INFO - Flask app initialized.
+2025-06-26 08:27:20,882 - event - INFO - Flask app initialized.
+2025-06-26 08:27:31,135 - event - INFO - Flask app initialized.
+2025-06-26 08:28:03,559 - event - INFO - Flask app initialized.
+2025-06-26 08:28:04,984 - event - INFO - Flask app initialized.
+2025-06-26 08:28:15,863 - event - INFO - Resume upload request received
+2025-06-26 08:28:15,914 - event - INFO - Resume parsed successfully: Resume.docx
+2025-06-26 08:29:02,041 - event - INFO - Flask app initialized.
+2025-06-26 08:29:08,636 - event - INFO - Resume upload request received
+2025-06-26 08:29:08,690 - event - INFO - Resume parsed successfully: Resume.docx
+2025-06-26 08:30:24,723 - event - INFO - Flask app initialized.
+2025-06-26 08:35:03,473 - event - INFO - Flask app initialized.

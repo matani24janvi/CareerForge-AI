@@ -5,6 +5,8 @@ const steps = [
 
 const progressBar = document.getElementById("progressBar");
 
+let enhancementReady = fetch("/enhancer").then((res) => res.json());
+
 steps
   .reduce((prev, step) => {
     return prev.then(() => {
@@ -20,6 +22,8 @@ steps
   }, Promise.resolve())
   .then(() => {
     setTimeout(() => {
-      window.location.href = "/enhancer"; // Change this if needed
+      enhancementReady.then(() => {
+        window.location.href = "/enhanced"; // Change this if needed
+      }); // Change this if needed
     }, 1000);
   });
