@@ -1,6 +1,6 @@
 const steps = [
-  { id: "step2", delay: 5000, progress: 50 },
-  { id: "step3", delay: 5000, progress: 100 },
+  { id: "step2", delay: 1000, progress: 50 },
+  { id: "step3", delay: 1000, progress: 100 },
 ];
 
 const progressBar = document.getElementById("progressBar");
@@ -25,5 +25,5 @@ steps
       enhancementReady.then(() => {
         window.location.href = "/enhanced"; // Change this if needed
       }); // Change this if needed
-    }, 1000);
+    });
   });
