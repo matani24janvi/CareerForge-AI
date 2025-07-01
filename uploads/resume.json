@@ -180,5 +180,626 @@
     "https",
     "mobile"
   ],
-  "enhanced_resume": "**Manav Sonawane**\nMumbai, India | +91 9920583987 | sonawanemanav96@gmail.com | LinkedIn: linkedin.com/in/manav-sonawane-889911313 | GitHub: github.com/Code-With-Mnv | Personal Website: [Coming Soon]\n\n---\n\n### Education\n**Thadomal Shahani Engineering College (TSEC)**, Bandra, Mumbai\nBachelor of Engineering in Information Technology (Currently pursuing 2nd year)\n*   First Year SGPA: 8.87/10\n\n**Atomic Energy Central School 4**, Mumbai\nHigher Secondary Certificate (HSC) in Science (PCM-CS)\n*   Score: 88.4%\n\n---\n\n### Skills\n*   **Programming Languages:** Python (Advanced), C, C++, Java, JavaScript\n*   **Web Technologies:** HTML, CSS, JavaScript, Flask\n*   **Software Development:** Object-Oriented Programming (OOP), Data Structures & Algorithms (DSA), RESTful APIs\n*   **Version Control:** Git, GitHub\n*   **Data Science & Tools:** NumPy, Pandas, Matplotlib, Data Visualization, Data Analysis\n*   **Automation:** Web Scraping, API Integration (SMTPLIB, Twilio)\n*   **Databases:** SQLite\n*   **Soft Skills:** Problem Solving, Logical Thinking, UI/UX Principles\n\n---\n\n### Projects\n*   **Responsive Web Interface Development**\n    *   Designed and implemented a modern website interface using HTML, CSS, and JavaScript, incorporating 3D illustrations for enhanced visual appeal and user experience.\n*   **Buckly - Bucket List Web Application**\n    *   Developed \"Buckly,\" a dynamic and responsive bucket list web application utilizing HTML, CSS, and JavaScript for front-end development.\n*   **Dynamic Blog Website**\n    *   Constructed a feature-rich blog website leveraging HTML, CSS, JavaScript for the frontend, Python for backend logic, and SQLite for robust content management and data persistence.\n*   **Python Automation Suite**\n    *   Developed a diverse suite of automated tools demonstrating proficiency in Python, web scraping, and API integrations (SMTPLIB, Twilio). Projects include:\n        *   Automated Flight & House Deal Finders\n        *   Automated Spotify Playlist Generator\n        *   Amazon Price Tracker\n        *   LinkedIn Job Application Bot\n        *   Instagram Content Scroller\n        *   Internet Speed Complaint Bot\n\n---\n\n### Certifications & Courses\n*   Certified in Python, Machine Learning, C/C++, Basic Web Development\n*   Certified in Basic AI, Natural Language Processing (NLP), and OpenCV\n*   MS-CIT (Maharashtra State Certificate in Information Technology)\n*   AutoCAD Certified\n\n---\n\n### Personal Interests\n*   Software Development, Web Development & UI/UX\n*   Problem Solving & Competitive Programming\n*   Gaming, Sports (Kabaddi, Cricket) & Railways"
+  "job_roles": {
+    "Data Science": 44.44,
+    "Web Development": 16.67,
+    "UI/UX Design": 4.0
+  },
+  "job_openings": [
+    {
+      "job_id": "1lIIglxOOAsT1u2vAAAAAA==",
+      "job_title": "Data Scientist",
+      "employer_name": "Barclays",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWCvTWBVZVGztbAPqrOM_DqxW72nF73-sOPsbp&s=0",
+      "employer_website": "https://www.barclays.com/",
+      "job_publisher": "Barclays Careers",
+      "job_employment_type": "Full–time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://search.jobs.barclays/job/pune/data-scientist/13015/82392172944?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Barclays Careers",
+          "apply_link": "https://search.jobs.barclays/job/pune/data-scientist/13015/82392172944?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Hitachi Careers - Hitachi Global",
+          "apply_link": "https://careers.hitachi.com/jobs/14962718-data-scientist?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Capgemini",
+          "apply_link": "https://www.capgemini.com/in-en/jobs/206315-en_GB+sap_btp/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Avantor Jobs",
+          "apply_link": "https://careers.avantorsciences.com/fr/fr/job/R-164673/Data-Scientist?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Workday",
+          "apply_link": "https://michelinhr.wd3.myworkdayjobs.com/en-US/Michelin/job/Pune/Data-Scientist_R-2025017608/apply/autofillWithResume?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SmartRecruiters Job Search",
+          "apply_link": "https://jobs.smartrecruiters.com/HitachiSolutions/744000015977326-data-scientist?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Ovitech Solution",
+          "apply_link": "https://ovitechsolution.com/jobs/data-scientist/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Instahyre",
+          "apply_link": "https://www.instahyre.com/job-370090-principal-data-scientist-at-enlyft-pune/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Join us as a Data Scientist at Barclays, where you'll take part in the evolution of our digital landscape, driving innovation and excellence. You'll harness cutting-edge technology to revolutionise our digital offerings, ensuring unparalleled customer experiences. As a part of the Service Operations team, you will deliver technology stack, using strong analytical and problem solving skills to understand the business requirements and deliver quality solutions. You'll be working on complex technical problems that will involve detailed analytical skills and analysis. This will be done in conjunction with fellow engineers, business analysts and business stakeholders.\n\nTo be successful as a Data Scientist you should have experience with:\n\nEssential Skills\n• Solid understanding of machine learning concepts and model deployment.\n• Prior experience in a data science role, indicating a strong foundation in the field.\n• Advanced coding proficiency in Python, with the ability to design, test, and correct complex scripts.\n• Proficiency in SQL, for managing and manipulating data.\n• Working in an Agile manner and leading Agile teams using Jira.\n\nSome other highly valued skills include:\n• Excellent modelling skills, as evidenced by an advanced degree or significant experience.\n• Strong quantitative and statistical skills, enabling logical and methodical problem-solving.\n• Good understanding and experience of big data technologies and the underlying approach.\n• Good interpersonal skills for maintaining relationships with multiple business areas, including senior leadership and compliance.\n• Ability to manage laterally and upwards across multiple discipline technical areas.\n• Version control using Bitbucket, Gitlab, etc.\n• Cloud experience (AWS, Azure or GCP)\n\nYou may be assessed on key critical skills relevant for success in role, such as risk and controls, change and transformation, business acumen, strategic thinking and digital and technology, as well as job-specific technical skills.\n\nThis role is based in Pune.\n\nPurpose of the role\n\nTo use innovative data analytics and machine learning techniques to extract valuable insights from the bank's data reserves, leveraging these insights to inform strategic decision-making, improve operational efficiency, and drive innovation across the organisation.\n\nAccountabilities\n• Identification, collection, extraction of data from various sources, including internal and external sources.\n• Performing data cleaning, wrangling, and transformation to ensure its quality and suitability for analysis.\n• Development and maintenance of efficient data pipelines for automated data acquisition and processing.\n• Design and conduct of statistical and machine learning models to analyse patterns, trends, and relationships in the data.\n• Development and implementation of predictive models to forecast future outcomes and identify potential risks and opportunities.\n• Collaborate with business stakeholders to seek out opportunities to add value from data through Data Science.\n\nAssistant Vice President Expectations\n• To advise and influence decision making, contribute to policy development and take responsibility for operational effectiveness. Collaborate closely with other functions/ business divisions.\n• Lead a team performing complex tasks, using well developed professional knowledge and skills to deliver on work that impacts the whole business function. Set objectives and coach employees in pursuit of those objectives, appraisal of performance relative to objectives and determination of reward outcomes\n• If the position has leadership responsibilities, People Leaders are expected to demonstrate a clear set of leadership behaviours to create an environment for colleagues to thrive and deliver to a consistently excellent standard. The four LEAD behaviours are: L – Listen and be authentic, E – Energise and inspire, A – Align across the enterprise, D – Develop others.\n• OR for an individual contributor, they will lead collaborative assignments and guide team members through structured assignments, identify the need for the inclusion of other areas of specialisation to complete assignments. They will identify new directions for assignments and/ or projects, identifying a combination of cross functional methodologies or practices to meet required outcomes.\n• Consult on complex issues; providing advice to People Leaders to support the resolution of escalated issues.\n• Identify ways to mitigate risk and developing new policies/procedures in support of the control and governance agenda.\n• Take ownership for managing risk and strengthening controls in relation to the work done.\n• Perform work that is closely related to that of other areas, which requires understanding of how areas coordinate and contribute to the achievement of the objectives of the organisation sub-function.\n• Collaborate with other areas of work, for business aligned support areas to keep up to speed with business activity and the business strategy.\n• Engage in complex analysis of data from multiple sources of information, internal and external sources such as procedures and practises (in other areas, teams, companies, etc).to solve problems creatively and effectively.\n• Communicate complex information. 'Complex' information could include sensitive information or information that is difficult to communicate because of its content or its audience.\n• Influence or convince stakeholders to achieve outcomes.\n\nAll colleagues will be expected to demonstrate the Barclays Values of Respect, Integrity, Service, Excellence and Stewardship – our moral compass, helping us do what we believe is right. They will also be expected to demonstrate the Barclays Mindset – to Empower, Challenge and Drive – the operating manual for how we behave.",
+      "job_is_remote": false,
+      "job_posted_at": "22 days ago",
+      "job_posted_at_timestamp": 1749427200,
+      "job_posted_at_datetime_utc": "2025-06-09T00:00:00.000Z",
+      "job_location": "Pune, Maharashtra",
+      "job_city": "Pune",
+      "job_state": "Maharashtra",
+      "job_country": "IN",
+      "job_latitude": 18.5246091,
+      "job_longitude": 73.8786239,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=in&hl=en&udm=8#vhid=vt%3D20/docid%3D1lIIglxOOAsT1u2vAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "poFn936ZjnYsMoOLAAAAAA==",
+      "job_title": "Data Scientists-Associate 2",
+      "employer_name": "PwC Acceleration Centers in India",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZTyJwKvrGGcxS2RbC7fx3S9KN5JeuwPg4TYTd&s=0",
+      "employer_website": null,
+      "job_publisher": "LinkedIn",
+      "job_employment_type": "Full–time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://in.linkedin.com/jobs/view/data-scientists-associate-2-at-pwc-acceleration-centers-in-india-4256656311?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://in.linkedin.com/jobs/view/data-scientists-associate-2-at-pwc-acceleration-centers-in-india-4256656311?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "At PwC, our people in data and analytics focus on leveraging data to drive insights and make informed business decisions. They utilise advanced analytics techniques to help clients optimise their operations and achieve their strategic goals. In data analysis at PwC, you will focus on utilising advanced analytical techniques to extract insights from large datasets and drive data-driven decision-making. You will leverage skills in data manipulation, visualisation, and statistical modelling to support clients in solving complex business problems.\n\nPwC US - Acceleration Center is seeking a highly skilled strong analytical background to work in our Analytics Consulting practice\n\nAssociate’s will work as an integral part of business analytics teams in India alongside clients and consultants in the U.S., leading teams for high-end analytics consulting engagements and providing business recommendations to project teams.\n\nYears of Experience: Candidates with 2+ years of hands on experience\n\nMust Have\n• Experience in building ML models in cloud environments (At least 1 of the 3: Azure ML, AWS SageMaker or Databricks)\n• Knowledge of predictive/prescriptive analytics, especially on usage of Log-Log, Log-Linear, Bayesian Regression technques and including Machine Learning algorithms (Supervised and Unsupervised) and deep learning algorithms and Artificial Neural Networks\n• Good knowledge of statistics For e.g: statistical tests & distributions\n• Experience in Data analysis For e.g: data cleansing, standardization and data preparation for the machine learning use cases\n• Experience in machine learning frameworks and tools (For e.g. scikit-learn, mlr, caret, H2O, TensorFlow, Pytorch, MLlib)\n• Advanced level programming in SQL or Python/Pyspark\n• Expertise with visualization tools For e.g: Tableau, PowerBI, AWS QuickSight etc.\n\nNice To Have\n• Working knowledge of containerization ( e.g. AWS EKS, Kubernetes), Dockers and data pipeline orchestration (e.g. Airflow)\n• Good Communication and presentation skills\n\nRoles And Responsibilities\n• Develop and execute on project & analysis plans under the guidance of Project Manager\n• Interact with and advise consultants/clients in US as a subject matter expert to formalize data sources to be used, datasets to be acquired, data & use case clarifications that are needed to get a strong hold on data and the business problem to be solved\n• Drive and Conduct analysis using advanced analytics tools and coach the junior team members\n• Implement necessary quality control measures in place to ensure the deliverable integrity\n• Validate analysis outcomes, recommendations with all stakeholders including the client team\n• Build storylines and make presentations to the client team and/or PwC project leadership team\n• Contribute to the knowledge and firm building activities\n\nProfessional And Educational Background\n• Any graduate /BE / B.Tech / MCA / M.Sc / M.E / M.Tech /Master’s Degree /MBA",
+      "job_is_remote": false,
+      "job_posted_at": "7 hours ago",
+      "job_posted_at_timestamp": 1751364000,
+      "job_posted_at_datetime_utc": "2025-07-01T10:00:00.000Z",
+      "job_location": "Mumbai, Maharashtra",
+      "job_city": "Mumbai",
+      "job_state": "Maharashtra",
+      "job_country": "IN",
+      "job_latitude": 18.9581934,
+      "job_longitude": 72.8320729,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=in&hl=en&udm=8#vhid=vt%3D20/docid%3DpoFn936ZjnYsMoOLAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "v-Q_ymWEbvnOfPlqAAAAAA==",
+      "job_title": "Sr Mgr Data Sciences",
+      "employer_name": "Amgen",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0V0Kcq5XlqNmcYya78CUYd13MZK6TWmXxp2UW&s=0",
+      "employer_website": "http://www.amgen.com/",
+      "job_publisher": "LinkedIn",
+      "job_employment_type": "Full–time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://in.linkedin.com/jobs/view/sr-mgr-data-sciences-at-amgen-4259485321?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://in.linkedin.com/jobs/view/sr-mgr-data-sciences-at-amgen-4259485321?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.co.in/job/qGjpuzFSipVwwbUuDnovYrBpx9P_MvK7Bg5wHDNzzXygPQ6LORRpTw?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Aijobs.net",
+          "apply_link": "https://aijobs.net/job/1398936-sr-mgr-data-sciences/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://in.bebee.com/job/f0cdb1fcc5245d64cb14b964edd1de37?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Notify",
+          "apply_link": "https://notify.careers/postings/d9f9d5bf-8f9c-4ede-9daf-f22d905000ff?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Talentify",
+          "apply_link": "https://www.talentify.io/job/sr-mgr-data-sciences-hyderabad-telangana-in-amgen-r-216778?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/mgr-data-sciences-jobs/1EA8A6377119C605?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "About Amgen\n\nAmgen harnesses the best of biology and technology to fight the world’s toughest diseases, and make people’s lives easier, fuller and longer. We discover, develop, manufacture and deliver innovative medicines to help millions of patients. Amgen helped establish the biotechnology industry more than 40 years ago and remains on the cutting-edge of innovation, using technology and human genetic data to push beyond what’s known today.\n\nAbout The Role\n\nRole Description:\n\nWe are seeking a Sr Manager Data Sciences—Amgen’s most senior individual-contributor authority on building and scaling end-to-end machine-learning and generative-AI platforms. Sitting at the intersection of engineering excellence and data-science enablement, you will design the core services, infrastructure and governance controls that allow hundreds of practitioners to prototype, deploy and monitor models—classical ML, deep learning and LLMs—securely and cost-effectively. Acting as a “player-coach,” you will establish platform strategy, define technical standards, and partner with DevOps, Security, Compliance and Product teams to deliver a frictionless, enterprise-grade AI developer experience.\n\nRoles & Responsibilities:\n• Develop and execute a multi-year data-science strategy and roadmap that directly supports corporate objectives, translating it into measurable quarterly OKRs for the team.\n• Lead, mentor and grow a high-performing staff of data scientists and ML engineers, providing technical direction, career development, and continuous‐learning opportunities.\n• Own the end-to-end delivery of advanced analytics and machine-learning solutions—from problem framing and data acquisition through model deployment, monitoring and iterative improvement—ensuring each project delivers clear business value.\n• Prioritise and manage a balanced portfolio of initiatives, applying ROI, risk and resource-capacity criteria to allocate effort effectively across research, clinical, manufacturing and commercial domains.\n• Provide hands-on guidance on algorithm selection and experimentation (regression, classification, clustering, time-series, deep learning, generative-AI, causal inference), ensuring methodological rigour and reproducibility.\n• Establish and enforce best practices for code quality, version control, MLOps pipelines, model governance and responsible-AI safeguards (privacy, fairness, explainability).\n• Partner with Data Engineering, Product, IT Security and Business stakeholders to integrate models into production systems via robust APIs, dashboards or workflow automations with well-defined SLAs.\n• Manage cloud and on-prem analytics environments, optimising performance, reliability and cost; negotiate vendor contracts and influence platform roadmaps where appropriate.\n• Champion a data-driven culture by communicating insights and model performance to VP/SVP-level leaders through clear storytelling, visualisations and actionable recommendations.\n• Track emerging techniques, regulatory trends and tooling in AI/ML; pilot innovations that keep the organisation at the forefront of data-science practice and compliance requirements.\n\nMust-Have Skills:\n• Leadership & Delivery: 10+ years in advanced analytics with 4+ years managing high-performing data-science or ML teams, steering projects from problem framing through production.\n• Algorithmic Expertise: Deep command of classical ML, time-series, deep-learning (CNNs, transformers) and causal-inference techniques, with sound judgement on when and how to apply each.\n• Production Engineering: Expert Python and strong SQL, plus hands-on experience deploying models via modern MLOps stacks (MLflow, Kubeflow, SageMaker, Vertex AI or Azure ML) with automated monitoring and retraining.\n• Business Influence: Proven ability to translate complex analytics into concise, outcome-oriented narratives that inform VP/SVP-level decisions and secure investment.\n• Cloud & Cost Governance: Working knowledge of AWS, Azure or GCP, including performance tuning and cost-optimisation for large-scale data and GPU/CPU workloads.\n• Responsible AI & Compliance: Familiarity with privacy, security and AI-governance frameworks (GDPR, HIPAA, GxP, EU AI Act) and a track record embedding fairness, explainability and audit controls throughout the model lifecycle.\n\nGood-to-Have Skills:\n• Experience in Biotechnology or pharma industry is a big plus\n• Published thought-leadership or conference talks on enterprise GenAI adoption.\n• Master’s degree in Computer Science and or Data Science\n• Familiarity with Agile methodologies and Scaled Agile Framework (SAFe) for project delivery.\n\nEducation and Professional Certifications\n• Master’s degree with 10-14 + years of experience in Computer Science, IT or related field\n\nOR\n• Bachelor’s degree with 12-17 + years of experience in Computer Science, IT or related field\n• Certifications on GenAI/ML platforms (AWS AI, Azure AI Engineer, Google Cloud ML, etc.) are a plus.\n\nSoft Skills:\n• Excellent analytical and troubleshooting skills.\n• Strong verbal and written communication skills\n• Ability to work effectively with global, virtual teams\n• High degree of initiative and self-motivation.\n• Ability to manage multiple priorities successfully.\n• Team-oriented, with a focus on achieving team goals.\n• Ability to learn quickly, be organized and detail oriented.\n• Strong presentation and public speaking skills.\n\nEQUAL OPPORTUNITY STATEMENT\n\nAmgen is an Equal Opportunity employer and will consider you without regard to your race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, or disability status.\n\nWe will ensure that individuals with disabilities are provided with reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request an accommodation.",
+      "job_is_remote": false,
+      "job_posted_at": "1 day ago",
+      "job_posted_at_timestamp": 1751241600,
+      "job_posted_at_datetime_utc": "2025-06-30T00:00:00.000Z",
+      "job_location": "Hyderabad, Telangana",
+      "job_city": "Hyderabad",
+      "job_state": "Telangana",
+      "job_country": "IN",
+      "job_latitude": 17.406498,
+      "job_longitude": 78.47724389999999,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=in&hl=en&udm=8#vhid=vt%3D20/docid%3Dv-Q_ymWEbvnOfPlqAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15204100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "UXHfEH-5Of91RiVXAAAAAA==",
+      "job_title": "Advanced Data Science Associate Consultant",
+      "employer_name": "ZS",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ9RNebBgqhRQX8tNR9QqsoQdmCI0dJjABir-j&s=0",
+      "employer_website": "http://www.zs.com/",
+      "job_publisher": "ZS Associates, Inc. Careers",
+      "job_employment_type": "Full–time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://jobs.zs.com/all/jobs/20964?lang=en-us&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "ZS Associates, Inc. Careers",
+          "apply_link": "https://jobs.zs.com/all/jobs/20964?lang=en-us&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Talentify",
+          "apply_link": "https://www.talentify.io/job/advanced-data-science-associate-consultant-pune-maharashtra-in-zs-careers-20964?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Expertini",
+          "apply_link": "https://in.expertini.com/jobs/job/advanced-data-science-consultant-pune-zs-1831-15978556/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://in.jobrapido.com/jobpreview/3200640256390987776?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Recruit.net",
+          "apply_link": "https://www.recruit.net/job/advanced-data-science-consultant-jobs/872E3ECA7E7C5ADD?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "ZS is a place where passion changes lives. As a management consulting and technology firm focused on improving life and how we live it, our most valuable asset is our people. Here you’ll work side-by-side with a powerful collective of thinkers and experts shaping life-changing solutions for patients, caregivers and consumers, worldwide. ZSers drive impact by bringing a client first mentality to each and every engagement. We partner collaboratively with our clients to develop custom solutions and technology products that create value and deliver company results across critical areas of their business. Bring your curiosity for learning; bold ideas; courage and passion to drive life-changing impact to ZS.\n\nOur most valuable asset is our people.\n\nAt ZS we honor the visible and invisible elements of our identities, personal experiences and belief systems—the ones that comprise us as individuals, shape who we are and\n\nmake us unique. We believe your personal interests, identities, and desire to learn are part of your success here. Learn more about our diversity, equity, and inclusion efforts and the networks ZS supports to assist our ZSers in cultivating community spaces, obtaining the resources they need to thrive, and sharing the messages they are passionate about.\n\nData Science Associate Consultant\n\nData Science Associate Consultant (DSA) design, develop and execute high-impact analytics solutions for large, complex, structured and unstructured data sets (including big data) to help clients make better fact-based decisions.\n\nWhat You’ll Do :\n• Stay updated with the latest developments in Deep Learning and AI research.\n• Implement and fine-tune advanced models in deep learning, with a focus on Transformers for sequential data (e.g., time series, text, and vision).\n• Apply knowledge of large language model (LLM) fine-tuning and alignment approaches to improve model performance.\n• Utilize active learning techniques to train models more efficiently and effectively.\n• Collaborate with cross-functional teams to develop and deploy machine learning models in production.\n• Contribute to research projects aimed at advancing the field of AI and machine learning.\n• Develop advanced algorithms that solve problems of large dimensionality in a computationally efficient and statistically effective manner\n• Collaborate with clients and other ZS stakeholders to effectively integrate and communicate analysis findings\n• Contribute to the evaluation of emerging datasets and technologies that may contribute to our analytical platform\n• Owning the development of select assets/accelerators for efficient scaling of capability, with a focus on leveraging generative AI and deep learning methodologies.\n• Integrate engineering principles into data science workflows, optimizing algorithms for performance, scalability, and maintainability.\n• Collaborate with the engineering team to implement and deploy data science solutions into production, ensuring seamless integration with existing systems.\n• Utilize software engineering best practices for version control, code review, testing, and documentation to maintain high-quality, reliable, and reproducible data science workflows.\n\nWhat You’ll Bring:\n• Bachelor's or master's degree or PhD in Computer Science (or Statistics) from a premier institute, and strong academic performance with analytic and quantitative coursework is required\n• 4-7 years of Data Science experience, including proficiency in generative AI, deep learning, statistical techniques, and engineering integration for scalable solutions\n• Knowledge of programming (e.g. Java/Python/R);\n• Knowledge of big data/advanced analytics concepts and algorithms (e.g. text mining, social listening, recommender systems, predictive modeling, etc.)\n• Excellent oral and written communication skills.\n• Strong attention to detail, with a research-focused mindset;\n• Excellent critical thinking and problem-solving skills;\n• High motivation, good work ethic and maturity.\n• Exposure to Generative AI and its usage to solve problems is a plus.\n\nPerks & Benefits:\n\nZS offers a comprehensive total rewards package including health and well-being, financial planning, annual leave, personal growth and professional development. Our robust skills development programs, multiple career progression options and internal mobility paths and collaborative culture empowers you to thrive as an individual and global team member.\n\nWe are committed to giving our employees a flexible and connected way of working. A flexible and connected ZS allows us to combine work from home and on-site presence at clients/ZS offices for the majority of our week. The magic of ZS culture and innovation thrives in both planned and spontaneous face-to-face connections.\n\nTravel:\n\nTravel is a requirement at ZS for client facing ZSers; business needs of your project and client are the priority. While some projects may be local, all client-facing ZSers should be prepared to travel as needed. Travel provides opportunities to strengthen client relationships, gain diverse experiences, and enhance professional growth by working in different environments and cultures.\n\nConsidering applying?\n\nAt ZS, we're building a diverse and inclusive company where people bring their passions to inspire life-changing impact and deliver better outcomes for all. We are most interested in finding the best candidate for the job and recognize the value that candidates with all backgrounds, including non-traditional ones, bring. If you are interested in joining us, we encourage you to apply even if you don't meet 100% of the requirements listed above.\n\nZS is an equal opportunity employer and is committed to providing equal employment and advancement opportunities without regard to any class protected by applicable law.\n\nTo Complete Your Application:\n\nCandidates must possess or be able to obtain work authorization for their intended country of employment.An on-line application, including a full set of transcripts (official or unofficial), is required to be considered.\n\nNO AGENCY CALLS, PLEASE.\n\nFind Out More At:\n\nwww.zs.com",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Noida, Uttar Pradesh",
+      "job_city": "Noida",
+      "job_state": "Uttar Pradesh",
+      "job_country": "IN",
+      "job_latitude": 28.5355161,
+      "job_longitude": 77.3910265,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=in&hl=en&udm=8#vhid=vt%3D20/docid%3DUXHfEH-5Of91RiVXAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "CrJ0HCGZ7RvSE1PpAAAAAA==",
+      "job_title": "Senior Specialist, Data Science",
+      "employer_name": "MSD",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyFtTU6dH1FwwF9_qSB0jWpCvGlPMuU0Exl77L&s=0",
+      "employer_website": "http://www.merck.com/",
+      "job_publisher": "MSD Careers",
+      "job_employment_type": "Full–time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://jobs.msd.com/gb/en/job/R337095/Senior-Specialist-Data-Science?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "MSD Careers",
+          "apply_link": "https://jobs.msd.com/gb/en/job/R337095/Senior-Specialist-Data-Science?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://in.linkedin.com/jobs/view/senior-specialist-data-science-at-msd-4251695622?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Foundit",
+          "apply_link": "https://www.foundit.in/job/senior-specialist-data-science-msd-pune-34813780?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://in.jooble.org/jdp/-864750841360926782?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.co.in/job-listing/senior-specialist-data-science-msd-JV_IC2856202_KO0,30_KE31,34.htm?jl=1009659066922&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "BeBee",
+          "apply_link": "https://in.bebee.com/job/dbefc2b0424761c5641d62b2fee62260?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Simplify",
+          "apply_link": "https://simplify.jobs/p/a31f9e86-a4ed-4f0e-b2af-5e589dd5df10/Senior-Specialist?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.co.in/job/Y2Ege5kkICYfzTPIHLSVkbqdwAhVWr5oS0kA9HRdOt4rZJlDNejr3w?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Job Description\n\nSenior Specialist - Data Science\n\nAt our company we are leveraging analytics and technology, as we invent for life on behalf of patients around the world. We are seeking those who have a passion for using data, analytics, and insights to drive decision making, that will allow us to tackle some of the world’s greatest health threats.\n\nWithin our commercial Insights, Analytics, and Data organization we are transforming to better power decision-making across our end-to-end commercialization process, from business development to late lifecycle management. As we endeavor, we are seeking a dynamic talent to serve in the role of Senior Specialist - Data Science.\n\nThis role involves working with our partners in different Therapeutic areas (e.g. Oncology, Vaccines, Pharma & Rare Disease, etc.) and Domain areas (HCP Analytics, Patient Analytics, Segmentation & targeting, Market Access, etc.) across the organization to help create scalable and production-grade analytics solutions, ranging from data visualization and reporting to advanced statistical and AI/ML models.\n\nYou will work in one of the three therapeutic areas of Brand Strategy and Performance Analytics – Oncology/Vaccines/Pharma & Rare Disease, where you will play a pivotal role in leveraging your statistical and machine learning expertise to address critical business challenges and derive insights to drive key decisions. Working alongside experienced data scientists and business analysts, you will have the opportunity to collaborate in translating business queries into analytical problems, employing your critical thinking, problem-solving, statistical, machine learning, and data visualization skills to deliver impactful solutions.\n\nWe are seeking candidates with prior expertise in the healthcare analytics or consulting sectors, prior experience in leading Data Science teams and delivering end-to-end data science projects against business priorities. Thorough understanding of different Physician and Patient-level data (PLD) from leading vendors such as IQVIA, Komodo, and Optum is expected. Extensive experience on commercial pharma analytics (HCP Analytics, PLD analytics, concepts like persistence, compliance, line of therapy, etc., or Segmentation & Targeting). You will collaborate with Market leaders to answer critical business questions using data science solutions. You will be part of a dynamic team that collaborates with our partners across therapeutic areas. Furthermore, effective communication skills are crucial, as this role requires interfacing with executive and business stakeholders.\n\nWho you are:\n\n· You understand the foundations of statistics and machine learning and can work in high performance computing/cloud environments, with experience/knowledge in aspects across statistical analysis, machine learning, model development, data engineering, data visualization, and data interpretation\n\n· You are self-motivated, and have demonstrated abilities to think independently as a data scientist\n\n· You structure your data science approach according to the necessary task, while appropriately applying the correct level of model complexity to the problem at hand\n\n· You have an agile mindset of continuous learning and will focus on integrating enterprise value into team culture\n\n· You are kind, collaborative, and capable of seeking and giving candid feedback that effectively contributes to a more seamless day-to-day execution of tasks\n\nKey responsibilities:\n• Lead a moderate sized team of Data Scientist to solve complex business problems.\n• Collaborate with business leaders to define and prioritize the business problems, work with the team to conceptualize the data science solution to address the problem\n• Lead the end to end Program Management to ensure that team is working as per aligned business priorities\n• Standardize and scale data science solutions to increase the delivery efficiency on prioritized work\n• Collaborate with cross-functional teams to design and implement solutions that meet business requirements\n• Define business & technical requirements (datasets, business rules, technical architecture), provide technical direction to the team and manage end-to-end projects\n• Present the findings to senior business stakeholders in a clear and concise manner\n• Ensure the technical and professional development of junior team members by required mentorship and defining the career progression pathway\n• Develop deep expertise in the therapeutic area of interest, contribute to thought leadership in the domain through publications and conference presentations.\n\nMinimum Qualifications:\n• Bachelor’s degree with 8-10 years industry experience\n• Extensive experience in healthcare analytics or consulting sectors\n• Extensive experience working with real world evidence (RWE) and patient level data (PLD) from leading vendors such as IQVIA, Komodo, Optum etc.\n• Extensive experience in HCP Analytics, Segmentation and Targeting and Patient Level Data analytics (e.g., creating Patient Cohorts, knowledge of Lines of Therapy, Persistency, Compliance, etc.)\n• Experience in project management, senior level stakeholder management\n• Experience in leading small sized teams\n• Strong Python/R, SQL, Excel skills\n• Strong foundation of statistics and machine learning\n\nPreferred Qualifications:\n• Advanced degree in STEM (MS, MBA, PhD)\n• Experience in Oncology/Vaccine/Pharma & Rare Diseases therapeutic area commercial analytics\n• Experience of supporting End to End Program Management\n\nOur Human Health Division maintains a “patient first, profits later” ideology. The organization is comprised of sales, marketing, market access, digital analytics and commercial professionals who are passionate about their role in bringing our medicines to our customers worldwide.\n\nWe are proud to be a company that embraces the value of bringing diverse, talented, and committed people together. The fastest way to breakthrough innovation is when diverse ideas come together in an inclusive environment. We encourage our colleagues to respectfully challenge one another’s thinking and approach problems collectively. We are an equal opportunity employer, committed to fostering an inclusive and diverse workplace.\n\nCurrent Employees apply HERE\n\nCurrent Contingent Workers apply HERE\n\nSearch Firm Representatives Please Read Carefully\nMerck & Co., Inc., Rahway, NJ, USA, also known as Merck Sharp & Dohme LLC, Rahway, NJ, USA, does not accept unsolicited assistance from search firms for employment opportunities. All CVs / resumes submitted by search firms to any employee at our company without a valid written search agreement in place for this position will be deemed the sole property of our company. No fee will be paid in the event a candidate is hired by our company as a result of an agency referral where no pre-existing agreement is in place. Where agency agreements are in place, introductions are position specific. Please, no phone calls or emails.\n\nEmployee Status:\nRegular\n\nRelocation:\n\nVISA Sponsorship:\n\nTravel Requirements:\n\nFlexible Work Arrangements:\nNot Applicable\n\nShift:\n\nValid Driving License:\n\nHazardous Material(s):\n\nRequired Skills:\nBusiness Intelligence (BI), Database Design, Data Engineering, Data Modeling, Data Science, Data Visualization, Machine Learning, Software Development, Stakeholder Relationship Management, Waterfall Model\n\nPreferred Skills:\n\nJob Posting End Date:\n07/15/2025\n• A job posting is effective until 11:59:59PM on the day BEFORE the listed job posting end date. Please ensure you apply to a job posting no later than the day BEFORE the job posting end date.\n\nRequisition ID:R337095",
+      "job_is_remote": false,
+      "job_posted_at": "16 days ago",
+      "job_posted_at_timestamp": 1749945600,
+      "job_posted_at_datetime_utc": "2025-06-15T00:00:00.000Z",
+      "job_location": "Pune, Maharashtra",
+      "job_city": "Pune",
+      "job_state": "Maharashtra",
+      "job_country": "IN",
+      "job_latitude": 18.5246091,
+      "job_longitude": 73.8786239,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=in&hl=en&udm=8#vhid=vt%3D20/docid%3DCrJ0HCGZ7RvSE1PpAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15204100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "r_wSCGQGw9SPXWeUAAAAAA==",
+      "job_title": "Data Scientist - Immediate Joiners preferred",
+      "employer_name": "InnoWave",
+      "employer_logo": null,
+      "employer_website": "https://innowave.tech",
+      "job_publisher": "Careers At InnoWave",
+      "job_employment_type": "Full–time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://innowave-workforce.freshteam.com/jobs/qG_yOQEMN5Oq/data-scientist-immediate-joiners-preferred?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Careers At InnoWave",
+          "apply_link": "https://innowave-workforce.freshteam.com/jobs/qG_yOQEMN5Oq/data-scientist-immediate-joiners-preferred?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://in.linkedin.com/jobs/view/data-scientist-immediate-joiners-preferred-at-innowave-4257088062?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Antal Tech Jobs",
+          "apply_link": "https://www.antaltechjobs.in/job/data-scientist---immediate-joiners-preferred?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.co.in/job/CywHYJiSoaLd_cU_jDcu0XJfXn3eOgkJWzc8bXod1ZLinop7Ye52KQ?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.com/job-listing/data-scientist-immediate-joiners-preferred-innowave-JV_IC2940587_KO0,42_KE43,51.htm?jl=1009793414692&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "The Elite Job",
+          "apply_link": "https://theelitejob.com/job/14846/ground-handling-executive-bangalore-airport-immediate-joiners?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Aijobs.net",
+          "apply_link": "https://aijobs.net/job/1389678-data-scientist-immediate-joiners-preferred/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "JobLeads",
+          "apply_link": "https://www.jobleads.com/in/job/data-scientist-immediate-joiners-preferred--bengaluru--e7210d16b3f40dd32e181cb4c7a53794d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "InnoWave is looking for a talented and analytical Data Scientist with 2–3 years of experience to join our dynamic team. The ideal candidate will have a strong foundation in data analysis, machine learning, and statistical modeling, and will be passionate about transforming data into actionable insights to support decision-making across projects.\n\nResponsibilities\n• Analyze large and complex datasets to identify trends, patterns, and actionable insights\n• Design, develop, and implement machine learning models to solve business problems\n• Collaborate with cross-functional teams to understand business objectives and data needs\n• Present analytical findings and model results clearly to both technical and non-technical stakeholders\n• Create data visualizations and dashboards to communicate insights effectively\n• Develop and maintain robust data pipelines and data wrangling scripts\n• Monitor model performance and continuously improve algorithms\n• Stay updated with the latest advancements in data science and machine learning\n\nRequired Skills & Qualifications\n• Bachelor’s or Master’s degree in Computer Science, Statistics, Mathematics, Data Science, or a related field\n• 2–3 years of hands-on experience in a data science or analytics role\n• Strong proficiency in Python or R for data analysis and modeling\n• Experience with machine learning libraries such as Scikit-learn, TensorFlow, or PyTorch\n• Solid understanding of statistical techniques and their real-world applications\n• Experience with SQL and working with relational databases\n• Familiarity with data visualization tools such as Power BI, Tableau, or matplotlib/seaborn\n• Excellent problem-solving skills and attention to detail\n• Strong communication and collaboration skills",
+      "job_is_remote": false,
+      "job_posted_at": "3 days ago",
+      "job_posted_at_timestamp": 1751068800,
+      "job_posted_at_datetime_utc": "2025-06-28T00:00:00.000Z",
+      "job_location": "Bengaluru, Karnataka",
+      "job_city": "Bengaluru",
+      "job_state": "Karnataka",
+      "job_country": "IN",
+      "job_latitude": 12.9628669,
+      "job_longitude": 77.57750899999999,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=in&hl=en&udm=8#vhid=vt%3D20/docid%3Dr_wSCGQGw9SPXWeUAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "IrgFapeCX3NMWvIBAAAAAA==",
+      "job_title": "Data Scientist - Product Supply",
+      "employer_name": "Procter & Gamble",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPDr3Z1vDwnnse2sKZiyaDC8Agb5a4NVJC4Sz_&s=0",
+      "employer_website": "https://us.pg.com/",
+      "job_publisher": "LinkedIn",
+      "job_employment_type": "Full–time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://in.linkedin.com/jobs/view/data-scientist-product-supply-at-procter-gamble-4259483750?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://in.linkedin.com/jobs/view/data-scientist-product-supply-at-procter-gamble-4259483750?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "P&G was founded over 180 years ago as a simple soap and candle company. Today, we're the world’s largest consumer goods company and home to iconic, trusted brands that make life a little bit easier in small but significant ways. We've spanned three centuries thanks to three simple ideas: leadership, innovation and citizenship. The insight, innovation and passion of hardworking teams has helped us grow into a global company that is governed responsibly and ethically, that is open and clear, and that supports good causes and protects the environment. This is a place where you can be proud to work and do something that matters.\n\nDedication From Us\n\nYou will be at core of Ground- breaking innovations, be given exciting opportunities, lead initiatives, and take charge and responsibility, in creative workspaces where new insights thrive. All the while, you'll receive outstanding training to help you become a leader in your field. What we Offer: Continuous mentorship – work with peers and receive both formal training as well as day-to-day mentoring from your manager multifaceted and encouraging work environment– employees are at the centre, we value every individual and support initiatives, promoting agility and work/life balance.\n\nOverview Of The Job\n\nProvides an ideal place to work on ground-breaking upstream improvements related to the manufacturing and processing of our leading products with intelligent, connected technologies driving the 4th industrial revolution. Our aim is to ignite your potential and equip you to enhance the capability, safety, and efficiency of all our systems while reducing cost and boosting sustainability.\n\nYour team\n\nThis role reports to business Dry Laundry global Platform leader. You will be working with project teams across Engineering, Manufacturing and Quality across the globe.\n\nHow Success Looks Like\n• Enabling savings every year on base budget as per the masterplan\n• Delivering touchless digital transformation masterplan and reapplying across the globe.\n\nResponsibilities of the role (Product Supply Data Scientist)\n• Provides technical leadership in supporting OU innovation projects.\n• Acts as a key enabler in leading and delivering results against challenges.\n• Works with innovation team looking at new platforms, machine control, data processing and analytics. Helps develop capability in others.\n• Develop and plan required analytic projects in response to business needs. Leverage data science tools to tackle the toughest process problems in the region.\n• Develop new analytics/predictive/prescriptive modeling methods and/or tools as required. Propose prescriptive analytic models to build robust and fault-tolerant process control strategies to reduce Operations Effort and improve product quality\n• Work with process/equipment authorities and application developers to identify data relevant for analysis.\n• Supply together with process/equipment owners and ITOT to the development and evolution of data models for analytical capabilities. Own data model and maintenance and development for hub-site\n• Develop and maintain key data pipelines across selected sites globally\n• Contribute to define work processes to deploy and maintain predictive/analytical modeling architectures, modeling standards, alarming and reporting, and data analysis methodologies.\n• Conduct external focus research to drive suggestions on analytical modeling products, services, protocols, and standards that might support and speed-up the smart manufacturing journey.\n• Identify, diagnose, and resolve prognostics model performance issue.\n• Leverage Reliability Engineering improve with data science to develop new solutions to reduce losses.",
+      "job_is_remote": false,
+      "job_posted_at": "1 day ago",
+      "job_posted_at_timestamp": 1751241600,
+      "job_posted_at_datetime_utc": "2025-06-30T00:00:00.000Z",
+      "job_location": "Birmaharajpur, Odisha",
+      "job_city": "Birmaharajpur",
+      "job_state": "Odisha",
+      "job_country": "IN",
+      "job_latitude": 20.8681552,
+      "job_longitude": 84.04581759999999,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=in&hl=en&udm=8#vhid=vt%3D20/docid%3DIrgFapeCX3NMWvIBAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "593pi945cewkrLayAAAAAA==",
+      "job_title": "Senior Consultant - Data & Analytics",
+      "employer_name": "AstraZeneca",
+      "employer_logo": null,
+      "employer_website": "http://www.astrazeneca.com/",
+      "job_publisher": "AstraZeneca Careers",
+      "job_employment_type": "Full–time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://careers.astrazeneca.com/job/chennai/senior-consultant-data-and-analytics/7684/82972448384?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "AstraZeneca Careers",
+          "apply_link": "https://careers.astrazeneca.com/job/chennai/senior-consultant-data-and-analytics/7684/82972448384?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Workday",
+          "apply_link": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/broadbean_external/job/Senior-Consultant---Data---Analytics_R-229964?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.co.in/job-listing/workday-services-senior-fins-psa-reporting-consultant-apac-shift-wpp-JV_IC2833209_KO0,64_KE65,68.htm?jl=1009601394236&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.co.in/job/Y_c0QIIL-ZEwRWeVL3Oiy9eRGxZLTzUQaU-sWll9ENUSBLlKjqsafw?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Shine",
+          "apply_link": "https://www.shine.com/jobs/workday-services-senior-fins-psa-reporting-consultant-apac-shift/wpp/17132655?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://in.linkedin.com/jobs/view/senior-consultant-data-analytics-at-astrazeneca-4255405355?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "WPP Careers",
+          "apply_link": "https://wpp.careersitecloud.com/job-66ed6619a93a2c131fb9a725-workday-services-hcm-reporting-consultant-apac-shift-chennai?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Joinrs",
+          "apply_link": "https://www.joinrs.com/pt/job-offers/306556/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Job Title: Senior Consultant - Data & Analytics\n\nCareer Level: D2\n\nIntroduction to Role\n\nAre you ready to make a significant impact in the world of data and analytics? We are looking for a highly skilled Senior Data & Analytics Engineer to join our offshore Knowledge Engineering Team. In this pivotal role, you will support various projects and initiatives across AstraZeneca by developing and managing the data ingestion, clean-up, and enrichment processes. Your expertise in data engineering and analytics, coupled with hands-on experience with AWS DevOps tools, will be crucial in driving our projects forward.\n\nAccountabilities\n\nCollaborate with project teams across diverse domains to understand their data needs and provide expertise in data ingestion and enrichment processes. Design, develop, and maintain scalable data pipelines and ETL workflows for the Knowledge Graph Team. Implement advanced data engineering techniques to ensure optimal performance and reliability of data systems. Work closely with data scientists and analysts to ensure high-quality data for knowledge graph construction and advanced analytics. Troubleshoot and resolve complex issues related to data pipelines, ensuring efficient data flow. Optimize data storage and processing for performance, scalability, and cost-efficiency. Stay updated with the latest trends in data engineering, analytics, and AWS DevOps to drive innovation. Provide DevOps/CloudOps support for the Knowledge Graph Team as needed.\n\nEssential Skills/Experience\n\n- Bachelor’s or Master’s degree in Computer Science, Engineering, or a related field.\n\n- Strong expertise in data engineering, ETL workflows, and data pipeline development.\n\n- Proficiency in programming languages such as Python, Java, or Scala.\n\n- Experience with advanced data engineering techniques and best practices.\n\n- Proven experience in DevOps/CloudOps support, particularly in AWS environment.\n\n- Excellent troubleshooting and problem-solving skills.\n\n- Web-services development and consumption (e.g., RESTful, GraphQL).\n\n- Strong communication and collaboration skills, with the ability to lead and work effectively with cross-functional teams, present findings, and influence decision-making.\n\nDesirable Skills/Experience\n\n- Experience in a senior or leadership role, guiding and mentoring junior data and analytics engineers.\n\n- Familiarity with knowledge graph construction and advanced analytics is a plus.\n\n- Familiarity with Object Graph Mapping libraries and/or Aspect-Oriented Programming.\n\n- Expertise in data engineering using modern data platforms to build, deploy, and maintain data applications.\n\n- Application deployment technologies (e.g., containerised workflows, Kubernetes) and cloud provisioning tools (e.g., CloudFormation, Terraform).\n\n- Experience with full-text search and indexing (e.g., Solr/Lucene, Elastic Search).\n\n- Knowledge of testing frameworks.\n\n- AWS certification(s) is highly desirable.\n\nWhen we put unexpected teams in the same room, we unleash bold thinking with the power to inspire life-changing medicines. In-person working gives us the platform we need to connect, work at pace and challenge perceptions. That's why we work, on average, a minimum of three days per week from the office. But that doesn't mean we're not flexible. We balance the expectation of being in the office while respecting individual flexibility. Join us in our unique and ambitious world.\n\nAt AstraZeneca, your work directly impacts patients by transforming our ability to develop life-changing medicines. We empower our business to perform at its peak by combining cutting-edge science with leading digital technology platforms. Join us at a crucial stage of our journey as we become a digital and data-led enterprise. Here, you will have the opportunity to innovate, take ownership, and explore new solutions in a dynamic environment that values diverse minds working inclusively together.\n\nAre you ready to shape the future of the pharmaceutical industry? Apply now to join our team!\n\nDate Posted\n25-Jun-2025\n\nClosing Date\n\nAstraZeneca embraces diversity and equality of opportunity. We are committed to building an inclusive and diverse team representing all backgrounds, with as wide a range of perspectives as possible, and harnessing industry-leading skills. We believe that the more inclusive we are, the better our work will be. We welcome and consider applications to join our team from all qualified candidates, regardless of their characteristics. We comply with all applicable laws and regulations on non-discrimination in employment (and recruitment), as well as work authorization and employment eligibility verification requirements.",
+      "job_is_remote": false,
+      "job_posted_at": "7 days ago",
+      "job_posted_at_timestamp": 1750723200,
+      "job_posted_at_datetime_utc": "2025-06-24T00:00:00.000Z",
+      "job_location": "Chennai, Tamil Nadu",
+      "job_city": "Chennai",
+      "job_state": "Tamil Nadu",
+      "job_country": "IN",
+      "job_latitude": 13.0843007,
+      "job_longitude": 80.2704622,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=in&hl=en&udm=8#vhid=vt%3D20/docid%3D593pi945cewkrLayAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "43911100",
+      "job_onet_job_zone": "4"
+    },
+    {
+      "job_id": "w6Hi6FiBjtaoJZXLAAAAAA==",
+      "job_title": "Principal Consultant, Senior Data Scientist!",
+      "employer_name": "Genpact",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQADUnV84vlQUUgR_vzZjnZU3vlo6LqcxfenR0c&s=0",
+      "employer_website": "http://www.genpact.com/",
+      "job_publisher": "Foundit",
+      "job_employment_type": "Full–time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.foundit.in/job/principal-consultant-senior-data-scientist-genpact-bengaluru-bangalore-35443267?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Foundit",
+          "apply_link": "https://www.foundit.in/job/principal-consultant-senior-data-scientist-genpact-bengaluru-bangalore-35443267?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.co.in/job/mbTlwSDOWLAjzT5RM3Ugq06HIVeknFYkntgF6l32nSzwM5JSUSbUwA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jooble",
+          "apply_link": "https://in.jooble.org/jdp/-4561280156866110620?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobrapido.com",
+          "apply_link": "https://in.jobrapido.com/jobpreview/7263243774363435008?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Ready to shape the future of work\n\nAt Genpact, we don&rsquot just adapt to change&mdashwe drive it. AI and digital innovation are redefining industries, and we&rsquore leading the charge. Genpact&rsquos , our industry-first accelerator, is an example of how we&rsquore scaling advanced technology solutions to help global enterprises work smarter, grow faster, and transform at scale. From large-scale models to , our breakthrough solutions tackle companies most complex challenges.\n\nIf you thrive in a fast-moving, tech-driven environment, love solving real-world problems, and want to be part of a team that&rsquos shaping the future, this is your moment.\n\nGenpact (NYSE: G) is anadvanced technology services and solutions company that deliverslastingvalue for leading enterprisesglobally.Through ourdeep business knowledge, operational excellence, and cutting-edge solutions - we help companies across industries get ahead and stay ahead.Powered by curiosity, courage, and innovation,our teamsimplementdata, technology, and AItocreate tomorrow, today.Get to know us atand on,,, and.\n\nInviting applications for the role of Principal Consultant, Senior Data Scientist!\n\nIn this role, you will have a strong background in Gen AI implementations, data engineering, developing ETL processes, and utilizing machine learning tools to extract insights and drive business decisions. The Data Scientist will be responsible for analysing large datasets, developing predictive models, and communicating findings to various stakeholders\n\nResponsibilities\n• Develop and maintain machine learning models to identify patterns and trends in large datasets.\n• Utilize Gen AI and various LLMs to design & develop production ready use cases.\n• Collaborate with cross-functional teams to identify business problems and develop data-driven solutions.\n• Communicate complex data findings and insights to non-technical stakeholders in a clear and concise manner.\n• Continuously monitor and improve the performance of existing models and processes.\n• Stay up to date with industry trends and advancements in data science and machine learning.\n• Design and implement data models and ETL processes to extract, transform, and load data from various sources.\n• Good hands own experience in AWS bedrock models, Sage maker, Lamda etc\n• Data Exploration & Preparation - Conduct exploratory data analysis and clean large datasets for modeling.\n• Business Strategy & Decision Making - Translate data insights into actionable business strategies.\n• Mentor Junior Data Scientists - Provide guidance and expertise to junior team members.\n• Collaborate with Cross-Functional Teams - Work with engineers, product managers, and stakeholders to align data solutions with business goals.\n\nQualifications we seek in you!\n\nMinimum Qualifications\n• Bachelor%27s / Master%27s degree in computer science, Statistics, Mathematics, or a related field.\n• Relevant years of experience in a data science or analytics role.\n• Strong proficiency in SQL and experience with data warehousing and ETL processes.\n• Experience with programming languages such as Python & R is a must. (either one )\n• Familiarity with machine learning tools and libraries such as Pandas, scikit-learn and AI libraries.\n• Having excellent knowledge in Gen AI, RAG, LLM Models & strong understanding of prompt engineering.\n• Proficiency in Az Open AI & AWS Sagemaker implementation.\n• Good understanding statistical techniques such and advanced machine learning\n• Experience with data warehousing and ETL processes.\n• Proficiency in SQL and database management.\n• Familiarity with cloud-based data platforms such as AWS, Azure, or Google Cloud.\n• Experience with Azure ML Studio is desirable.\n• Knowledge of different machine learning algorithms and their applications.\n• Familiarity with data preprocessing and feature engineering techniques.\n\nPreferred Qualifications/ Skills\n• Experience with model evaluation and performance metrics.\n• Understanding of deep learning and neural networks is a plus.\n• Certified in AWS Machine learning , AWS Infra engineer is a plus\n\nWhy join Genpact\n• Be a transformation leader - Work at the cutting edge of AI, automation, and digital innovation\n• Make an impact - Drive change for global enterprises and solve business challenges that matter\n• Accelerate your career - Get hands-on experience, mentorship, and continuous learning opportunities\n• Work with the best - Join 140,000+ bold thinkers and problem-solvers who push boundaries every day\n• Thrive in a values-driven culture - Our courage, curiosity, and incisiveness - built on a foundation of integrity and inclusion - allow your ideas to fuel progress\n\nCome join the tech shapers and growth makers at Genpact and take your career in the only direction that matters: Up.\n\nLet&rsquos build tomorrow together.\n\nGenpact is an Equal Opportunity Employer and considers applicants for all positions without regard to race, color, religion or belief, sex, age, national origin, citizenship status, marital status, military/veteran status, genetic information, sexual orientation, gender identity, physical or mental disability or any other characteristic protected by applicable laws. Genpact is committed to creating a dynamic work environment that values respect and integrity, customer focus, and innovation.\nFurthermore, please do note that Genpact does not charge fees to process job applications and applicants are not required to pay to participate in our hiring process in any other way. Examples of such scams include purchasing a %27starter kit,%27 paying to apply, or purchasing equipment or training.",
+      "job_is_remote": false,
+      "job_posted_at": "2 days ago",
+      "job_posted_at_timestamp": 1751155200,
+      "job_posted_at_datetime_utc": "2025-06-29T00:00:00.000Z",
+      "job_location": "Bengaluru, Karnataka",
+      "job_city": "Bengaluru",
+      "job_state": "Karnataka",
+      "job_country": "IN",
+      "job_latitude": 12.9628669,
+      "job_longitude": 77.57750899999999,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=in&hl=en&udm=8#vhid=vt%3D20/docid%3Dw6Hi6FiBjtaoJZXLAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15204100",
+      "job_onet_job_zone": "5"
+    },
+    {
+      "job_id": "ZqCyGMNMjoS3CDvyAAAAAA==",
+      "job_title": "Urgently Require Data Science Instructor    in Delhi (Job Id: 17681482)",
+      "employer_name": "UrbanPro.com",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHba4anxIRHeSwvQO_R4_cAHu8BB0FddthnkYD&s=0",
+      "employer_website": "https://www.urbanpro.com/",
+      "job_publisher": "UrbanPro",
+      "job_employment_type": "Part-time",
+      "job_employment_types": [
+        "PARTTIME"
+      ],
+      "job_apply_link": "https://www.urbanpro.com/delhi/urgently-require-data-science-instructor-in-hari-nagar/55996496?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "UrbanPro",
+          "apply_link": "https://www.urbanpro.com/delhi/urgently-require-data-science-instructor-in-hari-nagar/55996496?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Looking for a Data Science Instructor in and around Hari Nagar, Delhi who can check and guide me on various topics in Data Science. The tutor requires to travel to my location to teach. I am searching for a tutor who can improve my skills in Data Science. We are looking for someone who will teach during weekdays.\n\nJob Location\nHari Nagar\n\nData science techniques\nArtificial Intelligence\n\nPlan to start Data Science Classes\nImmediately\n\nAvailability\nAnyday",
+      "job_is_remote": false,
+      "job_posted_at": "2 days ago",
+      "job_posted_at_timestamp": 1751155200,
+      "job_posted_at_datetime_utc": "2025-06-29T00:00:00.000Z",
+      "job_location": "New Delhi, Delhi",
+      "job_city": "New Delhi",
+      "job_state": "Delhi",
+      "job_country": "IN",
+      "job_latitude": 28.613929799999998,
+      "job_longitude": 77.2088282,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=in&hl=en&udm=8#vhid=vt%3D20/docid%3DZqCyGMNMjoS3CDvyAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    }
+  ]
 }

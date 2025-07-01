@@ -52,6 +52,17 @@ def get_course_recommendations(tokens):
                 "courses": course_data
             })
 
+    with open("./uploads/resume.json", 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    data['job_roles'] = {
+        recommendation['role']: recommendation['fit']
+        for recommendation in recommendations
+    }
+
+    with open("./uploads/resume.json", 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii = False, indent=2)
+
     return sorted(recommendations, key=lambda x: x['fit'], reverse=True)
 
 # if __name__ == "__main__":
