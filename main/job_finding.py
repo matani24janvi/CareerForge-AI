@@ -13,7 +13,7 @@ def fetch_job_data(job_fit_dict):
     querystring = {"query": f"{selected_job}","page":"1","num_pages":"1","country":"in","date_posted":"all"}
 
     headers = {
-        "x-rapidapi-key": "0fe32ee739msh3a330024e2144e4p199f0fjsn15ac34ed5354",
+        "x-rapidapi-key": ,
         "x-rapidapi-host": "jsearch.p.rapidapi.com"
     }
 
