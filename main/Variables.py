@@ -65,3 +65,9 @@ ios_keyword = ['ios','ios development','swift','cocoa','cocoa touch','xcode']
 uiux_keyword = ['ux','adobe xd','figma','zeplin','balsamiq','ui','prototyping','wireframes','storyframes','adobe photoshop','photoshop','editing','adobe illustrator','illustrator','adobe after effects','after effects','adobe premier pro','premier pro','adobe indesign','indesign','wireframe','solid','grasp','user research','user experience']
 
 n_any = ['english','communication','writing', 'microsoft office', 'leadership','customer management', 'social media']
+
+tech_skills = [
+    "flask", "react", "node.js", "heroku", "django", "aws", "mysql", "python",
+    "c++", "html", "css", "java", "mongodb", "angular", "pytorch", "tensorflow",
+    "kubernetes", "docker", "git", "github", "gemini", "ai"
+]

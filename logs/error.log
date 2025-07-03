@@ -112,3 +112,28 @@ Traceback (most recent call last):
   File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\werkzeug\routing\map.py", line 924, in build
     raise BuildError(endpoint, values, method, self)
 werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'loader.show_loader'. Did you mean 'load1.show_loader' instead?
+2025-07-03 09:36:42,402 - error - ERROR - Error during resume processing: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\routes\resume_analyser.py", line 79, in upload_resume
+    preprocessing_logic(json_path)
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\preprocessing_logic.py", line 17, in preprocessing_logic
+    nlp = spacy.load('en_core_web_sm')
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\spacy\__init__.py", line 52, in load
+    return util.load_model(
+  File "C:\Users\Manav Sonawane\CareerForge-AI\venv\lib\site-packages\spacy\util.py", line 484, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+2025-07-03 09:42:53,299 - error - ERROR - Error during resume processing: 'spacy.tokens.doc.Doc' object has no attribute 'ent'
+Traceback (most recent call last):
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\routes\resume_analyser.py", line 79, in upload_resume
+    preprocessing_logic(json_path)
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\preprocessing_logic.py", line 20, in preprocessing_logic
+    locations = [ent.text for ent in doc.ent if ent.label_ in ("GPE", "LOC")]
+AttributeError: 'spacy.tokens.doc.Doc' object has no attribute 'ent'
+2025-07-03 09:43:17,772 - error - ERROR - Error during resume processing: 'spacy.tokens.doc.Doc' object has no attribute 'ent'
+Traceback (most recent call last):
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\routes\resume_analyser.py", line 79, in upload_resume
+    preprocessing_logic(json_path)
+  File "c:\Users\Manav Sonawane\CareerForge-AI\main\preprocessing_logic.py", line 20, in preprocessing_logic
+    locations = [ent.text for ent in doc.ent if ent.label_ in ("GPE", "LOC")]
+AttributeError: 'spacy.tokens.doc.Doc' object has no attribute 'ent'

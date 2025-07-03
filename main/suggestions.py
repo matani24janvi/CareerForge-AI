@@ -25,15 +25,15 @@ def match_courses_from_keywords(missing_keywords, course_list):
                 break
         if len(matched_courses) >= 10:
             break
-    return matched_courses or course_list[:2]  # fallback if no matches
+    return matched_courses or course_list # fallback if no matches
 
 def get_course_recommendations(tokens):
     roles = {
-        "Data Science": (ds_keyword, ds_course),
-        "Web Development": (web_keyword, web_course),
-        "Android Development": (android_keyword, android_course),
-        "iOS Development": (ios_keyword, ios_course),
-        "UI/UX Design": (uiux_keyword, uiux_course)
+        "Data-Science": (ds_keyword, ds_course),
+        "Web-Development": (web_keyword, web_course),
+        "Android-Development": (android_keyword, android_course),
+        "iOS-Development": (ios_keyword, ios_course),
+        "UI-UX-Design": (uiux_keyword, uiux_course)
     }
 
     recommendations = []

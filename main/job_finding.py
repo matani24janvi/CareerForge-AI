@@ -1,7 +1,7 @@
 import json
 import requests
 
-def fetch_job_data(job_fit_dict):
+def fetch_job_data(job_fit_dict, locations):
     max_fit = 0
     selected_job = ""
     for job, fit in job_fit_dict.items():
@@ -10,10 +10,10 @@ def fetch_job_data(job_fit_dict):
             selected_job = job
 
     url = "https://jsearch.p.rapidapi.com/search"
-    querystring = {"query": f"{selected_job}","page":"1","num_pages":"1","country":"in","date_posted":"all"}
+    querystring = {"query": f"{selected_job}","page":"1","num_pages":"1","location":f"{locations[0]}","date_posted":"all"}
 
     headers = {
-        "x-rapidapi-key": ,
+        "x-rapidapi-key": "0fe32ee739msh3a330024e2144e4p199f0fjsn15ac34ed5354",
         "x-rapidapi-host": "jsearch.p.rapidapi.com"
     }
 
@@ -31,6 +31,8 @@ def fetch_job_data(job_fit_dict):
 with open("./uploads/resume.json", 'r', encoding='utf-8') as file:
     data = json.load(file)
     job_fit_dict = data.get('job_roles', {})
+    locations = data.get('locations', [])
 
-fetch_job_data(job_fit_dict)
+
+fetch_job_data(job_fit_dict, locations)
 

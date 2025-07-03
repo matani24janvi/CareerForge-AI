@@ -293,3 +293,28 @@
 2025-07-01 23:19:26,220 - event - INFO - Flask app initialized.
 2025-07-01 23:19:38,009 - event - INFO - Resume upload request received
 2025-07-01 23:19:38,048 - event - INFO - Resume parsed successfully: Resume.docx
+2025-07-03 09:29:20,158 - event - INFO - Flask app initialized.
+2025-07-03 09:29:22,159 - event - INFO - Flask app initialized.
+2025-07-03 09:36:42,057 - event - INFO - Resume upload request received
+2025-07-03 09:36:42,125 - event - INFO - Resume parsed successfully: Rahul_Verma.docx
+2025-07-03 09:42:52,597 - event - INFO - Resume upload request received
+2025-07-03 09:42:52,626 - event - INFO - Resume parsed successfully: Rahul_Verma.docx
+2025-07-03 09:43:08,326 - event - INFO - Flask app initialized.
+2025-07-03 09:43:11,006 - event - INFO - Flask app initialized.
+2025-07-03 09:43:17,085 - event - INFO - Resume upload request received
+2025-07-03 09:43:17,130 - event - INFO - Resume parsed successfully: Rahul_Verma.docx
+2025-07-03 09:44:17,239 - event - INFO - Flask app initialized.
+2025-07-03 09:44:19,864 - event - INFO - Resume upload request received
+2025-07-03 09:44:19,888 - event - INFO - Resume parsed successfully: Rahul_Verma.docx
+2025-07-03 09:46:52,217 - event - INFO - Flask app initialized.
+2025-07-03 09:47:03,677 - event - INFO - Flask app initialized.
+2025-07-03 09:49:49,284 - event - INFO - Flask app initialized.
+2025-07-03 09:49:51,378 - event - INFO - Flask app initialized.
+2025-07-03 09:49:58,449 - event - INFO - Resume upload request received
+2025-07-03 09:49:58,499 - event - INFO - Resume parsed successfully: Rahul_Verma.docx
+2025-07-03 09:55:30,801 - event - INFO - Resume upload request received
+2025-07-03 09:55:30,849 - event - INFO - Resume parsed successfully: Rahul_Verma.docx
+2025-07-03 10:05:26,229 - event - INFO - Flask app initialized.
+2025-07-03 10:05:28,828 - event - INFO - Flask app initialized.
+2025-07-03 10:05:35,036 - event - INFO - Resume upload request received
+2025-07-03 10:05:35,076 - event - INFO - Resume parsed successfully: Rahul_Verma.docx
