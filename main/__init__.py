@@ -23,11 +23,14 @@ def create_app():
     from .routes.loader import loader_bp
     from .routes.suggestions import suggestions_bp
     from .routes.enhancer import enhancer_bp
+    from .routes.complementary import complementary_bp
+
 
     app.register_blueprint(resume_analyser_bp)
     app.register_blueprint(loader_bp)
     app.register_blueprint(suggestions_bp)
     app.register_blueprint(enhancer_bp)
+    app.register_blueprint(complementary_bp)
 
 
     # Log application startup

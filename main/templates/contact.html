@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CareerForge AI</title>
-    <link rel="stylesheet" href="../static/styles/style.css" />
+    <link rel="stylesheet" href="../static/styles/extra_style.css" />
     <script
       type="module"
       src="https://unpkg.com/@splinetool/viewer@1.10.11/build/spline-viewer.js"
@@ -20,6 +20,7 @@
     <!-- Navbar -->
     <nav class="navbar">
       <ul>
+        <li><a href="/">Home</a></li>
         <li><a href="/about">About AI</a></li>
         <li><a href="/work">How It Works</a></li>
         <li><a href="/contact">Contact</a></li>
@@ -34,31 +35,17 @@
         <span class="ai-text">AI</span>
       </h1>
       <p class="subtitle">Unlock career opportunities with the power of AI</p>
-      <div class="title-underline"></div>
-
-      <!-- Quick Benefits -->
-      <div class="quick-benefits">
-        <div class="benefit-card">⚡ Instant AI Feedback</div>
-        <div class="benefit-card">🎯 Smart Job Matching</div>
-        <div class="benefit-card">🧠 ATS Optimization</div>
+      <div class="container">
+        <div class="glass-box">
+          <br />
+          <p>
+            We believe every great journey starts with the right support. If you
+            have questions, run into technical issues, or just want to share
+            feedback, our team is just a click away. Reach out anytime—we’re
+            ready to help you reach your full potential.
+          </p>
+        </div>
       </div>
-    </div>
-
-    <!-- Upload Form -->
-    <div class="overlay">
-      <h2>Upload Your Resume</h2>
-      <form
-        action="{{url_for('resume_analyser.upload_resume')}}"
-        method="POST"
-        enctype="multipart/form-data"
-        class="upload-form"
-      >
-        <label class="file-input">
-          <input type="file" name="file" id="resumeInput" required />
-          <span id="fileLabel">Select Resume (PDF/DOCX)</span>
-        </label>
-        <button type="submit">Upload</button>
-      </form>
     </div>
 
     <!-- Footer -->

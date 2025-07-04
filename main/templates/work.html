@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CareerForge AI</title>
-    <link rel="stylesheet" href="../static/styles/style.css" />
+    <link rel="stylesheet" href="../static/styles/extra_style.css" />
     <script
       type="module"
       src="https://unpkg.com/@splinetool/viewer@1.10.11/build/spline-viewer.js"
@@ -20,6 +20,7 @@
     <!-- Navbar -->
     <nav class="navbar">
       <ul>
+        <li><a href="/">Home</a></li>
         <li><a href="/about">About AI</a></li>
         <li><a href="/work">How It Works</a></li>
         <li><a href="/contact">Contact</a></li>
@@ -34,31 +35,34 @@
         <span class="ai-text">AI</span>
       </h1>
       <p class="subtitle">Unlock career opportunities with the power of AI</p>
-      <div class="title-underline"></div>
+      <div class="container">
+        <div class="glass-box">
+          <br />
+          <p>
+            CareerForge-AI is designed to guide you through your job search like
+            a smart career coach. Here’s how:
 
-      <!-- Quick Benefits -->
-      <div class="quick-benefits">
-        <div class="benefit-card">⚡ Instant AI Feedback</div>
-        <div class="benefit-card">🎯 Smart Job Matching</div>
-        <div class="benefit-card">🧠 ATS Optimization</div>
+            <br />1.Drop in your resume and our AI instantly scans your skills,
+            experience, and achievements. We match you with roles that suit your
+            profile—no more endless scrolling through job boards.
+
+            <br />2.Find what’s missing. We’ll point out keywords and skills
+            that top jobs expect but your resume may lack.
+
+            <br />3.Upskill with purpose. For every missing skill, we link you
+            to courses that help you get job-ready fast.
+
+            <br />4.Boost your resume. Our enhancement tool helps you
+            restructure and refine for better visibility and impact.
+
+            <br />5.Practice like a pro. With AI-powered interview simulations,
+            you get scored and guided to improve.
+
+            <br />6.Get smart job suggestions based on your updated profile and
+            performance.
+          </p>
+        </div>
       </div>
-    </div>
-
-    <!-- Upload Form -->
-    <div class="overlay">
-      <h2>Upload Your Resume</h2>
-      <form
-        action="{{url_for('resume_analyser.upload_resume')}}"
-        method="POST"
-        enctype="multipart/form-data"
-        class="upload-form"
-      >
-        <label class="file-input">
-          <input type="file" name="file" id="resumeInput" required />
-          <span id="fileLabel">Select Resume (PDF/DOCX)</span>
-        </label>
-        <button type="submit">Upload</button>
-      </form>
     </div>
 
     <!-- Footer -->
